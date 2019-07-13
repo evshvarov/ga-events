@@ -5,7 +5,7 @@ Class GA.Analytics
 /// category - event category - 2nd level of detalization
 /// label - event label - 3rd level of detalization
 /// tid - id of Google Analytics account to send event to
-ClassMethod GAEvent(tid As %String = "UA-101413258-1", event As %String, category As %String, label As %String) As %Status
+ClassMethod SendEvent(tid As %String = "UA-101413258-1", event As %String, category As %String, label As %String) As %Status
 {
     set req = ##class(%Net.HttpRequest).%New()
     set version="1.0"
