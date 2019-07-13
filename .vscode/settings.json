@@ -1,0 +1,6 @@
+{
+    "objectscript.conn.version": 3,
+    "objectscript.conn.ns": "GA",
+    "objectscript.conn.port": 52775,
+    "objectscript.conn.active": true
+}
